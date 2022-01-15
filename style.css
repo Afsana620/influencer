@@ -1,0 +1,104 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/* body */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: whitesmoke;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* journey as influencer styles start */
+
+.container {
+  width: 970px;
+}
+
+.influencer img {
+  width: 440px;
+}
+.influencers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.span {
+  display: block;
+}
+.button {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  background: #e02c6d;
+  padding: 10px 20px;
+  border: 1px solid #e02c6d;
+  border-radius: 41px;
+}
+.fa-star.filled {
+  color: #fb8200;
+}
+.fa-star.empty {
+  color: gainsboro;
+}
+.collection-style {
+  font-family: Inter;
+  color: #787885;
+}
+/* journey as influencer styles end */
+/* company logo start */
+
+/* popular collection start */
+.header-style {
+  text-align: center;
+}
+.collections .collection .thumbnail {
+  width: 285px;
+  height: 256px;
+}
+.collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  width: 329px;
+  padding: 0px;
+}
+.collection {
+  margin: 25px 25px 10px 0;
+  border: 1px solid #ffff;
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px;
+}
+
+.button-position {
+  display: flex;
+  margin-left: 700px;
+  justify-content: end;
+}
+.see-more {
+  color: #e02c6d;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: honeydew;
+  padding: 10px 30px;
+  border: 1px solid aliceblue;
+  border-radius: 40px;
+}
+/* popular collection end */
+
+/* footer start */
+footer {
+  color: #fff;
+  background: black;
+  text-align: center;
+}
+.social-media i {
+  padding-right: 10px;
+}
+/* footer style end */
+/* media quiris */
