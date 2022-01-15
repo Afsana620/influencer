@@ -20,6 +20,9 @@ h4 {
 .container {
   width: 870px;
 }
+.width {
+  width: 400px;
+}
 
 .influencer img {
   width: 440px;
@@ -120,6 +123,9 @@ h4 {
     width: 100%;
   }
   .collections .collection .thumbnail {
+    width: 100%;
+  }
+  .width {
     width: 100%;
   }
 }
