@@ -23,6 +23,9 @@ h4 {
 .width {
   width: 400px;
 }
+.difficult {
+  width: 100%;
+}
 
 .influencer img {
   width: 440px;
@@ -126,6 +129,9 @@ h4 {
     width: 100%;
   }
   .width {
+    width: 100%;
+  }
+  .difficult {
     width: 100%;
   }
 }
