@@ -12,11 +12,13 @@ main {
   flex-direction: column;
   align-items: center;
 }
-
+h4 {
+  padding-left: 10px;
+}
 /* journey as influencer styles start */
 
 .container {
-  width: 970px;
+  width: 870px;
 }
 
 .influencer img {
@@ -92,13 +94,26 @@ main {
 /* popular collection end */
 
 /* footer start */
-footer {
+/* footer {
   color: #fff;
   background: black;
   text-align: center;
 }
 .social-media i {
   padding-right: 10px;
-}
+} */
 /* footer style end */
 /* media quiris */
+@media only screen and (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+  .influencers,
+  .collections {
+    grid-template-columns: repeat(1, 1fr);
+    background-color: #e02c6d;
+  }
+  .influencer {
+    flex-direction: column;
+  }
+}
